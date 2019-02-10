@@ -1,11 +1,18 @@
 package stack;
 
+import java.util.Arrays;
+
 public class Stack {
+  private static final int MAX = 1000;
   private int length = 0;
-  private String[] stack = new String[1000];
+  private String[] stack = new String[MAX];
 
   public void print() {
-    System.out.println(stack);
+    System.out.println(
+      Arrays.toString(
+        Arrays.stream(stack).filter(item -> item != null).toArray()
+      )
+    );
   }
 
   public String pop() {
@@ -19,7 +26,9 @@ public class Stack {
   }
 
   public void push(String item) {
-    stack[length++] = item;
+    if (length < MAX) {
+      stack[length++] = item;
+    }
   }
 
   public String numOfItems() {

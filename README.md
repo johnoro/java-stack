@@ -12,20 +12,20 @@ A "stack" is an abstract data type. It is a LIFO construct: Last In, First Out. 
 
 After creating the classes, have the program do the following
 
-- [ ] Make a new stack
-- [ ] Report number of items on the stack
-- [ ] Push first
-- [ ] Push second
-- [ ] Push third
-- [ ] Report number of items on the stack
-- [ ] Print the stack
-- [ ] Pop the stack
-- [ ] Print the stack
-- [ ] Pop the stack
-- [ ] Print the stack
-- [ ] Pop the stack
-- [ ] Print the stack
-- [ ] Report number of items on the stack
+- [x] Make a new stack
+- [x] Report number of items on the stack
+- [x] Push first
+- [x] Push second
+- [x] Push third
+- [x] Report number of items on the stack
+- [x] Print the stack
+- [x] Pop the stack
+- [x] Print the stack
+- [x] Pop the stack
+- [x] Print the stack
+- [x] Pop the stack
+- [x] Print the stack
+- [x] Report number of items on the stack
 
 
 Your output should look like this:
