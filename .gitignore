@@ -1,0 +1,13 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Jog files
+*.jar
+
+# Development tools
+.DS_Store
+.idea
+*.iml
